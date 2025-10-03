@@ -8,14 +8,16 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        CogniSAL
         Research Group
       image:
-        filename: welcome.jpg
+        filename: welcome.png
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **Cognitive Software, Automation and Language Research Group** focuses on the intersection of artificial intelligence, software engineering, and natural language processing. 
+        
+        Our mission is to engineer intelligent systems that can understand, automate, and interact with complex information in a human-like manner.
   
   - block: collection
     content:

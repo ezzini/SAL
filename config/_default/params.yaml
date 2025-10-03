@@ -2,14 +2,21 @@
 # Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# plugins_js:
+#   - media/custom
 
 # Appearance
 
+
 appearance:
+  # mode: system
+  # color: ''
   theme_day: minimal
-  theme_night:
-  font: native
-  font_size: L
+  theme_night: minimal
+
+  mode: light
+  # font: ''
+  # font_size: L
 
 # SEO
 
@@ -18,8 +25,8 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    description: 'Cognitive Software, Automation and Language Research Group.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -33,6 +40,7 @@ marketing:
 
 header:
   navbar:
+    show_theme_chooser: true
     enable: true
     align: r
     show_logo: true
@@ -41,11 +49,12 @@ header:
     show_search: true
     highlight_active_link: false
 
+
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Saad Ezzini. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
