@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        CogniSAL
+        Cogni<span style="color: #BD641C;">SAL</span>
         Research Group
       image:
         filename: welcome.png
